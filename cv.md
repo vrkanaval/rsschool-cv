@@ -1,6 +1,6 @@
 # Veranika Kanaval
 
-## Contact information:
+## Contact Information:
 - Phone: +995551532664
 - Email: veronica22.199@gmail.com
 - Telegram: @vr_kanaval
@@ -20,7 +20,12 @@ I am a team player and know	how to quickly find contact with people. I meet dead
 - Jira, Bugzilla
 
 ## Code Example
-
+The function which takes a number and returns the corresponding ASCII char for that value:
+```
+function getChar(c){
+  return String.fromCharCode(c);
+}
+```
 
 ## Education
 - __Belarusian State University, Minsk__ - *Faculty of International relations, International Law*
