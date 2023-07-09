@@ -1,0 +1,179 @@
+body {
+    box-sizing: border-box;
+    background-color: #DCDCDC;
+}
+
+.columns {
+    display: flex;
+}
+
+.container {
+    margin: 20px auto;
+    width: 1024px;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+}
+
+.nav {
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #DCDCDC;
+    background-color: #696969;
+  }
+
+.nav-list {
+    padding: 0px;
+}
+
+.nav-link {
+    padding: 0px 40px;
+    font-size: 15px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: #DCDCDC;
+  }
+
+.left-part {
+    width: 40%;
+    color:#DCDCDC;
+    background-color: #808080;
+}
+
+.right-part {
+    width: 60%;
+    color: #000000;
+    background-color: #FFFAFA;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+   margin: 0px;
+   font-size: 30px; 
+   font-family: 'Catamaran', sans-serif;
+   font-weight: 600;
+   letter-spacing: 2px;
+}
+
+.avatar {
+    max-width: 200px;
+    margin: 15px;
+    border: none ;
+    border-radius: 40%;
+  }  
+
+.left-part h2 {
+    margin-left: 30px;
+    border-bottom: 2px solid #FFFAFA ;
+    font-family: 'Barlow Semi Condensed', sans-serif;;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+
+ #title {
+    margin: 0px 0px 5px 0px;
+   font-family: 'Catamaran', sans-serif;
+   font-weight: 400;
+   letter-spacing: 1px;
+   
+}
+
+.left-part li {    
+    margin-left: 20px;
+  }
+
+.contacts li {
+    list-style-type: none;
+    margin-left: 0px;
+    padding: 0;
+    margin: 0;
+    }
+
+.left-part img {
+    margin-right: 4px;
+    margin-bottom: 0;
+  }
+
+.contacts-item img {
+    transform: translateY(4px);
+}
+
+.contacts-item a {
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    color: #DCDCDC;
+    text-decoration: none;
+}
+
+.right-part h2 {
+    margin-left: 30px;
+    border-bottom: 2px solid  #808080;
+    font-family: 'Barlow Semi Condensed', sans-serif;;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+
+.right-part li {  
+    margin-left: 20px;
+  }
+
+.education-item a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+.projects-item a {
+    color: #000000;
+    text-decoration: none;
+  }
+
+.right-part p {  
+    margin-left: 40px;
+    margin-right: 20px;
+    text-align: justify;
+  }
+  
+.code-example p {
+    margin: 0px 20px 0px 40px;  
+    text-align: justify;
+  }
+
+.code-example pre {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 15px;
+  }
+
+footer {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: #DCDCDC;
+    background-color: #696969;
+  }
+
+.github-logo {
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+
+.rsschool-logo {
+    margin-top: 5px;
+    margin-right: 10px;
+  }
